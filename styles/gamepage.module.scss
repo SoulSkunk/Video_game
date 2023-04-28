@@ -1,0 +1,33 @@
+.header {
+  height: 45vh;
+
+  .gradient {
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(30, 30, 26, 0.8) 65%,
+      #0d0d28 100%
+    );
+  }
+}
+
+.summary {
+  height: 215px;
+  overflow: auto;
+}
+
+.cover_game {
+  margin-left: 100px;
+  width: 30%;
+  height: auto;
+  margin: 10px;
+}
+
+#box_random_game {
+  display: flex;
+  flex-wrap: wrap;
+}
